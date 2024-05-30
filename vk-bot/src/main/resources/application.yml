@@ -1,0 +1,18 @@
+spring:
+  config:
+    import: file:env.properties
+  application:
+    name: vk-bot
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+vk:
+  api:
+    config:
+      secret: ${vk.secret}
+      group-id: ${vk.group-id}
+      confirmation-code: ${vk.confirmation-code}
+      access-key: ${vk.access-key}
+      api-version: "5.236"
+      method-url: "https://api.vk.com/method/"
+server:
+  port: 8080

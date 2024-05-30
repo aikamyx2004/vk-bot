@@ -1,3 +1,4 @@
+env.properties
 HELP.md
 .gradle
 build/
@@ -16,7 +17,6 @@ build/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
 ### IntelliJ IDEA ###
 .idea
 *.iws
