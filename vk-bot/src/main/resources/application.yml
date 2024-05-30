@@ -15,4 +15,4 @@ vk:
       api-version: "5.236"
       method-url: "https://api.vk.com/method/"
 server:
-  port: 8080
+  port: 8052
